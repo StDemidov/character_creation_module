@@ -16,6 +16,7 @@ class Character:
 
     def __init__(self, name):
         self.name = name
+        # to check
 
     def attack(self):
         value_attack = DEFAULT_ATTACK + randint(*self.RANGE_VALUE_ATTACK)
